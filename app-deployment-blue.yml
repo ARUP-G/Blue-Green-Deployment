@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
       - name: bankapp
-        image: ard/bankapp:blue # Adjust the image tag for the blue version
+        image: ard3dk/bankapp:blue # Adjust the image tag for the blue version
         ports:
         - containerPort: 8080
         env:
