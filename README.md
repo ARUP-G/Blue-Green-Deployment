@@ -1,1 +1,1 @@
-# Blue-Green-Deploment
+# Blue-Green-Deployment
