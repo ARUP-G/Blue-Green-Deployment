@@ -7,7 +7,7 @@ COPY . .
 RUN mvn clean package -DskipTests
     
 # Stage 2: Run Application
-FROM eclipse-temurin:21-jre-jammy-alpine
+FROM eclipse-temurin:21-jre-alpine
 
 EXPOSE 8080
 ENV APP_HOME=/usr/src/app
